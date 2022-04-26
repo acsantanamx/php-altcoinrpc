@@ -1,0 +1,35 @@
+{
+    "name": "done/php-altcoinrpc",
+    "type": "library",
+    "description": "Altcoin JSON-RPC client based on GuzzleHttp",
+    "keywords": ["altcoin","api","jsonrpc","guzzle"],
+    "homepage": "https://github.com/acsantanamx/php-altcoinrpc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Carlos Santana Ramos",
+            "email": "carlos@d-one.systems",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.5 | ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0 | ^8.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "DOne\\Altcoin\\": "src"
+        },
+        "files" : [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "DOne\\Altcoin\\Tests\\": "tests"
+        }
+    }
+}
