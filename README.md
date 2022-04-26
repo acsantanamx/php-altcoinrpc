@@ -5,7 +5,7 @@
 Run ```php composer.phar require done/php-altcoinrpc``` in your project directory or add following lines to composer.json
 ```javascript
 "require": {
-    "done/php-altcoinrpc": "^2.1"
+    "done/php-altcoinrpc": "^1.0"
 }
 ```
 and run ```php composer.phar install```.
